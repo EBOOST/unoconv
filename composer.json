@@ -1,0 +1,34 @@
+{
+    "name": "eboost/unoconv",
+    "description": "Convert documents using unoconv. ",
+    "keywords": [
+        "converter",
+        "documents",
+        "eboost",
+        "unoconv"
+    ],
+    "homepage": "https://bitbucket.eboost.nl/projects/EP/repos/unoconv",
+    "license": "Proprietary",
+    "authors": [
+        {
+            "name": "Bert van Hoekelen",
+            "email": "bert@eboost.co",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "illuminate/support": "~5.1",
+        "php" : ">=7.0",
+        "guzzlehttp/guzzle": "6.1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Eboost\\Unoconv\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
