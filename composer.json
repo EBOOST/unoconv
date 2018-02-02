@@ -8,7 +8,7 @@
         "unoconv"
     ],
     "homepage": "https://bitbucket.eboost.nl/projects/EP/repos/unoconv",
-    "license": "Proprietary",
+    "license": "MIT",
     "authors": [
         {
             "name": "Bert van Hoekelen",
